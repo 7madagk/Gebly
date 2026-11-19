@@ -7,6 +7,28 @@ import '@/global.css';
 
 import { Platform } from 'react-native';
 
+export const Gebly = {
+  orange: '#FF5200',
+  surface: '#FFF8F3',
+  text: '#0F0F1E',
+  textSecondary: '#656D7D',
+  white: '#FFFFFF',
+  black: '#000000',
+  border: '#F7DCCF',
+  track: '#F6EEE6',
+  trackBorder: '#EFE3D8',
+  muted: '#8E8984',
+} as const;
+
+export const GeblyFonts = {
+  regular: 'Rubik_400Regular',
+  medium: 'Rubik_500Medium',
+  semibold: 'Rubik_600SemiBold',
+  bold: 'Rubik_700Bold',
+  extraBold: 'Rubik_800ExtraBold',
+  display: 'Fredoka_700Bold',
+} as const;
+
 export const Colors = {
   light: {
     text: '#000000',
